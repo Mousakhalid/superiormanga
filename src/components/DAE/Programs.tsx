@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Programs = () => {
+const ProgramsDAE = () => {
     return (
         <div className='bg-[#0C7E81]'>
             <div className='md:px-32 px-8 py-16 '>
@@ -45,4 +45,4 @@ const Programs = () => {
     )
 }
 
-export default Programs
+export default ProgramsDAE

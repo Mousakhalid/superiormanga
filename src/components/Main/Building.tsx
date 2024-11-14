@@ -3,7 +3,7 @@ import React from 'react'
 
 const Building = () => {
     return (
-        <div className='bg-yellow-500 my-8'>
+        <div className='bg-yellow-500'>
             <div className='md:px-32 px-8 py-6'>
                 <div>
                     <h1 className='uppercase text-4xl font-bold text-gray-50'>State of the art facilities:</h1>

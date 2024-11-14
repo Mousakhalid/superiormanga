@@ -11,7 +11,7 @@ const EQ = () => {
                     <p className='font-semibold text-gray-600'>Adding Value through Contributions</p>
                 </div>
                 {/* eq box */}
-                <div className='grid md:grid-cols-3 grid-cols-1 md:px-32 px-12 gap-12'>
+                <div className='grid md:grid-cols-3 grid-cols-1 md:px-32 px-3 gap-12'>
                     <div>
                         <PlanCard
                             imgSrc="/img-6.webp"

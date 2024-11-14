@@ -12,12 +12,10 @@ import {
     DropdownMenuRadioItem,
     DropdownMenuSeparator,
     DropdownMenuTrigger,
-} from "./../ui/dropdown-menu"
+} from './../ui/dropdown-menu'
 import { Menu, XIcon } from 'lucide-react'
 
-
 const Header = () => {
-
     const [showMenu, setShowMenu] = useState<boolean>(false)
     const [isClient, setIsClient] = useState(false)
     const menuRef = useRef<HTMLUListElement>(null)
@@ -44,8 +42,9 @@ const Header = () => {
             document.removeEventListener('mousedown', handleClickOutside)
         }
     }, [])
+
     return (
-        <header className='flex justify-between items-center  z-10 px-8 w-full absolute'>
+        <header className='flex justify-between items-center z-10 px-8 w-full absolute'>
             <div className='flex justify-between w-full items-center py-3'>
                 <Link href={'/'}>
                     <div className='flex items-center justify-center text-gray-50'>
@@ -90,8 +89,31 @@ const Header = () => {
                                 </DropdownMenuContent>
                             </DropdownMenu>
                         </li>
-                        <li onClick={closeMenu}>
-                            <Link href='/dae'>DAE</Link>
+                        <li>
+                            <DropdownMenu>
+                                <DropdownMenuTrigger>
+                                    <button className='cursor-pointer text-white text-base uppercase'>DAE Programs</button>
+                                </DropdownMenuTrigger>
+                                <DropdownMenuContent>
+                                    <DropdownMenuLabel>
+                                        <Link href={'/dae'}>
+                                            DAE Programs
+                                        </Link>
+                                    </DropdownMenuLabel>
+                                    <DropdownMenuSeparator />
+                                    <DropdownMenuRadioGroup>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="chemical">
+                                            <Link href='/dae/chemical-technology'>Chemical Technology</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="electrical">
+                                            <Link href='/dae/electrical-engineering'>Electrical Engineering</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="office-management">
+                                            <Link href='/dae/office-management'>Office Management</Link>
+                                        </DropdownMenuRadioItem>
+                                    </DropdownMenuRadioGroup>
+                                </DropdownMenuContent>
+                            </DropdownMenu>
                         </li>
                         <li onClick={closeMenu}>
                             <Link href='/campus-facilities'>Campus Facilities</Link>
@@ -100,16 +122,15 @@ const Header = () => {
                             <Link href='/admissions'>Admission</Link>
                         </li>
                         {/* Contact Button for Mobile View */}
-                        <li className="sm:hidden" onClick={closeMenu}>
+                        <li className='sm:hidden' onClick={closeMenu}>
                             <Link href='/contact'>
                                 <Button className='bg-[#0C7E81] px-9 hover:bg-yellow-700'>Contact</Button>
                             </Link>
                         </li>
                     </ul>
                 )}
-               
-                <div>
 
+                <div>
                     <button onClick={() => toggleMenu()} className='text-white sm:hidden z-20 relative'>
                         {showMenu ? <XIcon /> : <Menu />}
                     </button>

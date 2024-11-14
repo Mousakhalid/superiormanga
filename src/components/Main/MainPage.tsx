@@ -7,6 +7,7 @@ import EQ from './EQ'
 import Promise from './Promise'
 import Building from './Building'
 import CampusLife from './CampusLife'
+import ProgramsDAE from '../DAE/Programs'
 
 const MainPage = () => {
     return (
@@ -17,6 +18,7 @@ const MainPage = () => {
             <EQ />
             <Programs />
             <Promise />
+            <ProgramsDAE />
             <Building />
             <CampusLife />
         </div>
