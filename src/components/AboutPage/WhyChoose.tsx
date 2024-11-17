@@ -8,12 +8,14 @@ const WhyChoose = () => {
             <div className='grid md:grid-cols-2 grid-cols-1'>
                 <div className=''>
                     <h1 className='text-yellow-500 text-3xl font-bold'>Why Choose</h1>
-                    <p className='text-3xl font-bold text-[#0c7e81]'>Superior College Manga Campus</p>
-                    <p className='text-[13px] text-gray-700 py-5'>We are committed to enhancing the potentials of students, faculty, staff, and
+                    <p className='text-3xl font-bold text-[#0c7e81]'>Superior College Lalazar Campus</p>
+                    <p className='text-[13px] text-gray-700 py-5'>
+                        We are committed to enhancing the potentials of students, faculty, staff, and
                         all segments of our society by bringing a positive change in their personal and
                         career lives, motivating them for self-enlightenment through Quality Education,
                         Personality Development, True Professionalism, and Career Planning; thus, adding
-                        value to our nation, and ultimately to humanity!</p>
+                        value to our nation, and ultimately to humanity!
+                        </p>
                     <div className='flex gap-10 text-[15px] text-gray-700 py-10'>
                         <ul className='list-disc'>
                             <li>Intermediate Programs</li>

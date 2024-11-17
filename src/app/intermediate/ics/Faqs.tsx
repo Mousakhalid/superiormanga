@@ -18,7 +18,7 @@ export function Faqs() {
                         <AccordionItem value="item-1" className="bg-white px-6">
                             <AccordionTrigger className="uppercase text-start text-[12px] text-gray-700">Q1. What is the minimum requirement for enrollment in I.C.S?</AccordionTrigger>
                             <AccordionContent className="text-start">
-                                Ans: Minimum requirement is matriculation or equivalent. For further details, visit superior college manga campus.
+                                Ans: Minimum requirement is matriculation or equivalent. For further details, visit superior college lalazar campus.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2" className="bg-white px-6">

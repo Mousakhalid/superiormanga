@@ -34,7 +34,6 @@ const Eligibility = () => {
                         <h2 className='text-2xl font-bold text-gray-50 text-center'>Eligibility Criteria</h2>
                         <ul className='list-disc text-[13px] text-gray-50 px-8 py-3'>
                             <li>Matric or Equivalent</li>
-
                         </ul>
                     </div>
                 </div>

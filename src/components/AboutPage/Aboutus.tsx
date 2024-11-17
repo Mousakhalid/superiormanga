@@ -6,7 +6,7 @@ const Aboutus = () => {
             <div className='md:px-48 px-8 md:py-16 py-4'>
                 <div className='bg-[#0C7E81] py-8 px-10 space-y-3'>
                     <h2 className='text-gray-50 text-3xl font-bold'>About Us</h2>
-                    <p className='text-gray-50'>Situated in the Manga area of Lahore, Superior College Manga Campus offers a supportive and stimulating atmosphere for students. We pride ourselves on our comprehensive academic programs and our commitment to fostering a culture of continuous learning. Our experienced faculty is dedicated to guiding students on their educational paths, ensuring they acquire the necessary skills and knowledge for their future endeavors. Together, we aim to create a nurturing environment where every student can thrive and reach their full potential.                    </p>
+                    <p className='text-gray-50'>Located in the heart of Rawalpindi, Superior College Lalazar Campus is dedicated to providing a high-quality education that meets the needs of our diverse student body. We believe in fostering a collaborative learning environment that encourages creativity and critical thinking. Our faculty members are committed to inspiring and empowering students, helping them to develop the skills necessary for success in their academic and future professional careers. Join us in our mission to cultivate a community of learners who are prepared to take on the challenges of tomorrow.</p>
                 </div>
             </div>
         </div>

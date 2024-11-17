@@ -10,7 +10,7 @@ const Reach = () => {
                         <h2 className='text-2xl font-semibold uppercase text-yellow-500 pb-6'>Contact Details</h2>
                         <div className='flex items-center justify-between py-3'>
                             <p className='text-yellow-500 font-bold uppercase'>Address</p>
-                            <p className='text-gray-50 text-[13px]'>111 Campus Manga Manddi Lahore</p>
+                            <p className='text-gray-50 text-[13px]'>Tulsa Chowk Near PSO Petrol Pump, Rawalpindi, Islamabad</p>
                         </div>
                         <hr />
                         <div className='flex items-center justify-between py-3'>
@@ -24,7 +24,7 @@ const Reach = () => {
                         <hr />
                         <div className='flex items-center justify-between py-3'>
                             <p className='text-yellow-500 font-bold uppercase'>E-MAIL</p>
-                            <p className='text-gray-50 text-[13px]'>info@superiormanga.com</p>
+                            <p className='text-gray-50 text-[13px]'>info@superiorlalazar.com</p>
                         </div>
                         <hr />
                         <div className='flex items-center justify-between py-3'>
@@ -42,7 +42,7 @@ const Reach = () => {
                     </div>
                 </div>
             </div>
-            
+
             <hr />
         </div>
     )

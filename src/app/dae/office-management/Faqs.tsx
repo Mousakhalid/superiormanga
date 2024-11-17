@@ -18,7 +18,7 @@ export function Faqs() {
                         <AccordionItem value="item-1" className="bg-white px-6">
                             <AccordionTrigger className="uppercase text-start text-[12px] text-gray-700">Q1. What is the minimum requirement for enrollment in the Diploma in Office Management?</AccordionTrigger>
                             <AccordionContent className="text-start">
-                                Ans: The minimum requirement for enrollment is 45% marks in matriculation, intermediate, or an equivalent qualification. For more information, visit Superior College Manga Campus.
+                                Ans: The minimum requirement for enrollment is 45% marks in matriculation, intermediate, or an equivalent qualification. For more information, visit Superior College Lalazar Campus.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2" className="bg-white px-6">

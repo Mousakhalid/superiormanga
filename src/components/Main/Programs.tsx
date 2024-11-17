@@ -9,11 +9,11 @@ const Programs = () => {
                         <h1 className='md:text-4xl text-2xl font-bold uppercase text-gray-50'>
                             Intermediate at
                             <br />
-                            Superior College Manga Campus
+                            Superior College Lalazar Campus
                         </h1>
                         <p className='text-yellow-500 text-3xl'>Our Programmes:</p>
                         <p className='font-thin text-gray-50'>
-                            Superior College Manga Campus offers a purpose-built campus with state-of-the-art facilities, supported by an experienced faculty. At Superior, you have access to a wide variety of courses designed to empower your educational journey and prepare you for a successful future.
+                            Superior College Lalazar Campus offers a purpose-built campus with state-of-the-art facilities, supported by an experienced faculty. At Superior, you have access to a wide variety of courses designed to empower your educational journey and prepare you for a successful future.
                         </p>
                     </div>
                     <div className='grid md:grid-cols-5 grid-cols-1 gap-8 mt-8'>

@@ -18,7 +18,7 @@ export function Faqs() {
                         <AccordionItem value="item-1" className="bg-white px-6">
                             <AccordionTrigger className="uppercase text-start text-[12px] text-gray-700">Q1. What is the minimum requirement for enrollment in DAE Chemical Technology?</AccordionTrigger>
                             <AccordionContent className="text-start">
-                                Ans: Minimum requirement is matriculation or equivalent. For further details, visit Superior College Manga Campus.
+                                Ans: Minimum requirement is matriculation or equivalent. For further details, visit Superior College Lalazar Campus.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2" className="bg-white px-6">

@@ -49,7 +49,7 @@ const Header = () => {
                 <Link href={'/'}>
                     <div className='flex items-center justify-center text-gray-50'>
                         <Image src='/logo2.png' alt='Logo Manga' width={90} height={90} />
-                        <p className='font-sans font-medium'>Superior College Manga Campus</p>
+                        <p className='font-sans font-medium'>Superior College Lalazar Campus</p>
                     </div>
                 </Link>
 
@@ -92,7 +92,7 @@ const Header = () => {
                         <li>
                             <DropdownMenu>
                                 <DropdownMenuTrigger>
-                                    <button className='cursor-pointer text-white text-base uppercase'>DAE Programs</button>
+                                    <button className='cursor-pointer text-white text-base uppercase'>DAE</button>
                                 </DropdownMenuTrigger>
                                 <DropdownMenuContent>
                                     <DropdownMenuLabel>
@@ -110,6 +110,77 @@ const Header = () => {
                                         </DropdownMenuRadioItem>
                                         <DropdownMenuRadioItem onClick={closeMenu} value="office-management">
                                             <Link href='/dae/office-management'>Office Management</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="architure-enginnering">
+                                            <Link href='/dae/architure-engineering'>Architecture Engineering</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="biomedical-technology">
+                                            <Link href='/dae/biomedical-technology'>Bio-Medical Technology</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="civil-technology">
+                                            <Link href='/dae/civil-technology'>Civil Technology</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="computer-hardware">
+                                            <Link href='/dae/computer-hardware'>Computer Hardware</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="electrical-engineering">
+                                            <Link href='/dae/electrical-engineering'>Electrical Engineering</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="electronics">
+                                            <Link href='/dae/electronics'>Electronics</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="fashion-designing">
+                                            <Link href='/dae/fashion-designing'>Fashion Designing</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="mechanical-technology">
+                                            <Link href='/dae/mechanical-technology'>Mechanical Technology</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="ref-technology">
+                                            <Link href='/dae/ref-technology'>Refregration Technology</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="telecommunication-technology">
+                                            <Link href='/dae/telecommunication-technology'>Telecommunication Technology</Link>
+                                        </DropdownMenuRadioItem>
+                                    </DropdownMenuRadioGroup>
+                                </DropdownMenuContent>
+                            </DropdownMenu>
+                        </li>
+                        <li>
+                            <DropdownMenu>
+                                <DropdownMenuTrigger>
+                                    <button className='cursor-pointer text-white text-base uppercase'>Medical</button>
+                                </DropdownMenuTrigger>
+                                <DropdownMenuContent>
+                                    <DropdownMenuLabel>
+                                        <Link href={'/medical'}>
+                                            Medical Programs
+                                        </Link>
+                                    </DropdownMenuLabel>
+                                    <DropdownMenuSeparator />
+                                    <DropdownMenuRadioGroup>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="cardiac">
+                                            <Link href='/medical/cardiac-technology'>Cardiac Technology</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="dental-hygiene">
+                                            <Link href='/medical/dental-hygiene'>Dental Hygiene</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="dispensing-technology">
+                                            <Link href='/medical/dispensing-technology'>Dispensing Technology</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="medical-imaging-technology">
+                                            <Link href='/medical/medical-imaging-tech'>Medical Imaging Technology</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="medical-lab">
+                                            <Link href='/medical/medical-lab'>Medical Lab</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="operation-theatre">
+                                            <Link href='/medical/operation-theatre'>Operation Theatre</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="opthalmic">
+                                            <Link href='/medical/opthalmic'>Opthalmic</Link>
+                                        </DropdownMenuRadioItem>
+                                        <DropdownMenuRadioItem onClick={closeMenu} value="physiotherapy">
+                                            <Link href='/medical/physiotherapy'>Physiotherapy</Link>
                                         </DropdownMenuRadioItem>
                                     </DropdownMenuRadioGroup>
                                 </DropdownMenuContent>

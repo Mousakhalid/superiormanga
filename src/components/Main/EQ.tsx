@@ -16,7 +16,7 @@ const EQ = () => {
                         <PlanCard
                             imgSrc="/img-6.webp"
                             title="Plan on IQ"
-                            description="Superior College Manga Campus has an exclusive study Plan based on polishing students’ IQ (Intelligence Quotient)"
+                            description="Superior College Lalazar Campus has an exclusive study Plan based on polishing students’ IQ (Intelligence Quotient)"
                         />
                     </div>
                     <div>
@@ -43,14 +43,14 @@ const EQ = () => {
                         <PlanCard
                             imgSrc="/img-6.webp"
                             title="Modern Infrastructure"
-                            description="Superior College Manga Campus have got exclusive purpose-built campus to ensure provision of a study conducive environment."
+                            description="Superior College Lalazar Campus have got exclusive purpose-built campus to ensure provision of a study conducive environment."
                         />
                     </div>
                     <div>
                         <PlanCard
                             imgSrc="/img-6.webp"
                             title="In-house labs"
-                            description="At Superior College Manga Campus, we have purpose built modern labs for practicing the knowledge being learnt."
+                            description="At Superior College Lalazar Campus, we have purpose built modern labs for practicing the knowledge being learnt."
                         />
                     </div>
                 </div>

@@ -7,7 +7,7 @@ const Bottom = () => {
             <div className='md:flex items-center justify-between py-4 md:px-32 px-8'>
                 <div>
                     <p className='text-gray-800 text-[13px]'>
-                        © Copyright Superior College Manga Campus All Rights Reserved 2024
+                        © Copyright Superior College Lalazar All Rights Reserved 2024
                     </p>
                 </div>
                 <div>

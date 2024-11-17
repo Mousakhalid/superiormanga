@@ -9,9 +9,9 @@ const MainDae = () => {
     <div>
       <Hero />
       <Introduction />
-      <ProgramsDAE />
+      <ProgramsDAE /> 
       <Admission />
-    </div>
+    </div> 
   )
 }
 

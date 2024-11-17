@@ -9,7 +9,7 @@ export function Faqs() {
     return (
         <div className="bg-gray-100">
             <div className="grid md:px-32 px-8 py-16 md:grid-cols-2 grid-cols-1">
-                <div>
+                <div> 
                     <h1 className="font-bold text-yellow-500">FAQ</h1>
                     <p className="text-[#0C7E81] text-3xl font-bold">Frequently Ask <br /> Questions</p>
                 </div>
@@ -18,7 +18,7 @@ export function Faqs() {
                         <AccordionItem value="item-1" className="bg-white px-6">
                             <AccordionTrigger className="uppercase text-start text-[12px] text-gray-700">Q1. What is the minimum requirement for enrollment in FSc. pre-engineering?</AccordionTrigger>
                             <AccordionContent className="text-start">
-                                Ans: Minimum requirement is matriculation or equivalent. For further details, visit superior college manga campus.
+                                Ans: Minimum requirement is matriculation or equivalent. For further details, visit superior college lalazar campus.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2" className="bg-white px-6">
